@@ -1,6 +1,7 @@
-title: "판다스 연습(판다스10분완성 등)"
+---
+title: "판다스10분완성 & 10 minutes to pandas"
 date: '2022-06-29'
-
+---
 
 # 판다스 10분 완성
 ## 1.Object Creation (객체 생성)
