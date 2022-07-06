@@ -3,7 +3,7 @@ title: "파이썬 기초"
 date: '2022-06-27'
 ---
 
-- 기초를 배운다. 
+- 기초를 배운다..
 
 ```python
 print("Hello World")
