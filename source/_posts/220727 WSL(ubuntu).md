@@ -22,7 +22,7 @@ date: '2022-07-27'
 
 너무 낮으면 안됨
 
-1. Power Shell  관리자 권한으로 실행하고 
+2. Power Shell  관리자 권한으로 실행하고 
 
 ![](images/0727WSL_setting/Untitled%202.png)
 
@@ -42,7 +42,7 @@ date: '2022-07-27'
 
 ok > finish
 
-1. **Microsoft Store** 로 이동하여  **Ubuntu 20.04.4 LTS** 다운로드
+3. **Microsoft Store** 로 이동하여  **Ubuntu 20.04.4 LTS** 다운로드
 
 ![](images/0727WSL_setting/Untitled%205.png)
 
@@ -58,7 +58,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 아이디, 비번 누르는 화면이 확인안됨
 
-1. 따라서 먼저 가상환경 설정해야 한다
+4. 따라서 먼저 가상환경 설정해야 한다
 
 다시 powershell 관리자 권한으로 이동
 
@@ -70,7 +70,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 확인하면 여전히 에러있음
 
-1. **윈도우즈 기능 켜기/끄기** 접속하여, **WINDOWS** **하이퍼바이저 플랫폼** 클릭 후 확인
+5. **윈도우즈 기능 켜기/끄기** 접속하여, **WINDOWS** **하이퍼바이저 플랫폼** 클릭 후 확인
 
 ![](images/0727WSL_setting/Untitled%2010.png)
 
@@ -78,7 +78,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 누르고 재부팅
 
-1. Windows PowerShell 로 다시 접속 / 관리자권한실행
+6. Windows PowerShell 로 다시 접속 / 관리자권한실행
 
 ![](images/0727WSL_setting/Untitled%2012.png)
 
@@ -88,7 +88,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 ![](images/0727WSL_setting/Untitled%2013.png)
 
-1. **Ubuntu** 다시 접속
+7. **Ubuntu** 다시 접속
 
 ![](images/0727WSL_setting/Untitled%2014.png)
 
@@ -114,7 +114,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 그래도 버전1인 상태..
 
-1. 위 작업을 모두 시도 했는데도, 버전2로 확인이  안되면 
+8. 위 작업을 모두 시도 했는데도, 버전2로 확인이  안되면 
 
 **Ubuntu 20.04.4 LTS 제거하고 다시 다운로드**
 
@@ -126,7 +126,7 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 # **VS code와 WSL 연동작업**
 
-1. 시스템 환경 변수 편집으로 접속
+9. 시스템 환경 변수 편집으로 접속
 
 ![](images/0727WSL_setting/Untitled%2020.png)
 
@@ -154,11 +154,11 @@ Ubuntu 20.04.4 LTS 는 작업이 설정이 꼬여서 리셋해야 할때 도움�
 
 — 레고 블록
 
-1. **VS code** 들어가서 **Remote - WSL** 설치하기
+10. **VS code** 들어가서 **Remote - WSL** 설치하기
 
 ![](images/0727WSL_setting/Untitled%2024.png)
 
-1. **VS code** 창 닫고 , 다시 열면 터미널에 **WSL** 확인됨
+11. **VS code** 창 닫고 , 다시 열면 터미널에 **WSL** 확인됨
 
 ![](images/0727WSL_setting/Untitled%2025.png)
 
