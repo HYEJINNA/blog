@@ -1,9 +1,11 @@
 ---
-title: "Apache Airflow 데이터 파이프라인 구축"
+title: "0728 Apache Airflow"
 date: '2022-07-28'
 ---
 
-## **Apache Airflow ?**
+Apache Airflow **데이터 파이프라인 구축** 
+
+## Apache Airflow **?**
 
 Apache Airflow is an open source platform to **programmatically author, schedule, and monitor**
 
@@ -15,41 +17,34 @@ Apache Airflow는 **프로그래밍 방식으로 워크플로우를 작성, 예�
 
 >pip3 install faker pandas 설치
 
-![](images/0728 airflow/Untitled.png)
+![](images/0728_ApacheAirflow/Untitled.png)
 
 설치 완료 후 VS code로 
 
 >**code .**
 
-    2. 
-
-먼저 가상환경에 들어가기 
+    2. 먼저 가상환경에 들어가기 
 
 human@DESKTOP-8BF1BS3:~/airflow$ source venv/bin/activate
 
     
 
-   3. 
+   3. 파이썬 파일 만들고, 내용 입력 후 실행 결과 확인 
 
-파이썬 파일 만들고, 내용 입력 후 실행 결과 확인 
+![](images/0728_ApacheAirflow/Untitled%201.png)
 
-![](images/0728 airflow/Untitled%201.png)
+   4. **Ubuntu** 열어서 airflowr파일이 있는 경로 찾고  **VS code**로 들어가기 
 
-   4. 
+![](images/0728_ApacheAirflow/Untitled%202.png)
 
-**Ubuntu** 열어서 airflowr파일이 있는 경로 찾고  **VS code**로 들어가기 
-
-![](images/0728 airflow/Untitled%202.png)
-
-![](images/0728 airflow/Untitled%203.png)
+![](images/0728_ApacheAirflow/Untitled%203.png)
 
 [https://github.com/PacktPublishing/Data-Engineering-with-Python](https://github.com/PacktPublishing/Data-Engineering-with-Python)
 
 너무 긴 코드는 참고하기  
 
-    5. 
-
-  **1) read_df.py 파일 만들고 실행** 
+    5.
+**1) read_df.py 파일 만들고 실행** 
 
 ```python
 import csv
@@ -66,7 +61,7 @@ if __name__ == "__main__":
     main()
 ```
 
-![](images/0728 airflow/Untitled%204.png)
+![](images/0728_ApacheAirflow/Untitled%204.png)
 
  
 
@@ -93,7 +88,7 @@ if __name__ == "__main__":
     main()
 ```
 
-![](images/0728 airflow/Untitled%205.png)
+![](images/0728_ApacheAirflow/Untitled%205.png)
 
 왼쪽 탐색기 쪽에 **data.csv** 파일이 출력되었다
 
@@ -124,7 +119,7 @@ if __name__ == "__main__":
     main()
 ```
 
-![](images/0728 airflow/Untitled%206.png)
+![](images/0728_ApacheAirflow/Untitled%206.png)
 
 왼쪽 탐색기 쪽에 **data.json** 파일이 출력되었다 
 
@@ -159,7 +154,7 @@ if __name__ == "__main__":
     read_pandas()
 ```
 
-![](images/0728 airflow/Untitled%207.png)
+![](images/0728_ApacheAirflow/Untitled%207.png)
 
 p51
 
@@ -210,7 +205,7 @@ print_starting >> csvJson
 
    7.  **airflow.cgf** 에서 52번째 load_examples = True 에서 True 를 False로 변경
 
-![](images/0728 airflow/Untitled%208.png)
+![](images/0728_ApacheAirflow/Untitled%208.png)
 
    8. 
 
@@ -224,17 +219,17 @@ print_starting >> csvJson
 
 >**airflow scheduler**  실행하면  ****
 
-![](images/0728 airflow/Untitled%209.png)
+![](images/0728_ApacheAirflow/Untitled%209.png)
 
 에어플로 GUI를 열면 방금 만든 **MyCSVDAG**가 생성되어 있다
 
-![](images/0728 airflow/Untitled%2010.png)
+![](images/0728_ApacheAirflow/Untitled%2010.png)
 
-![](images/0728 airflow/Untitled%2011.png)
+![](images/0728_ApacheAirflow/Untitled%2011.png)
 
 코드도 보인다 
 
-![](images/0728 airflow/Untitled%2012.png)
+![](images/0728_ApacheAirflow/Untitled%2012.png)
 
 참고자료 :
 
